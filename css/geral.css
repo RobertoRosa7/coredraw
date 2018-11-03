@@ -11,7 +11,7 @@
 }
 body,footer{
 	max-width: 1368px;
-	min-width: 480px;
+	/*min-width: 480px;*/
 }
 body{
 	font-size:12;
