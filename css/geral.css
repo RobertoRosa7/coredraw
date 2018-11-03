@@ -9,6 +9,10 @@
 	padding: 0;
 	margin: 0;
 }
+body,footer{
+	max-width: 1368px;
+	min-width: 480px;
+}
 body{
 	font-size:12;
 	line-height: 18px;
@@ -35,7 +39,14 @@ header{
 	background:#101010;
 	z-index: 15;
 }
-
+footer{
+	padding:40px 20px 10px;
+	background:#ececec;
+	width:100%;
+	font-size:12px;
+	line-height: 18px;
+	color:#7e828c;
+}
 /**
 * Layouts - Id's
 =============================================================================*/
@@ -215,3 +226,17 @@ header{
 /**
 * Media Queries
 =============================================================================*/
+/*Extra Small devices (Portrait para telas menores que 575px)*/
+@media (max-width: 575.98){}
+
+/*Small devices Landscape phone telas igual ou maiores que 576px*/
+@media (min-width:576px) and (max-width:767.98){}
+
+/*Medium devices Tables igual ou maiores que 768px*/
+@media (min-width:768px) and (max-width: 991.98px){}
+
+/*Large devices Notebook igual ou maiores que 992px*/
+@media (min-width:992px) and (max-width: 1199.98){}
+
+/*Extrar large devices PC igual ou maiores que 1200px*/
+@media (min-width: 1200px) and (max-width: 1366){}
