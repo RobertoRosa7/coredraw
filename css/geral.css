@@ -40,13 +40,14 @@ header{
 	z-index: 15;
 }
 footer{
-	padding:40px 20px 10px;
+	padding:60px 20px 30px;
 	background:#ececec;
 	width:100%;
 	font-size:12px;
 	line-height: 18px;
 	color:#7e828c;
 }
+
 /**
 * Layouts - Id's
 =============================================================================*/
@@ -185,6 +186,23 @@ footer{
 }
 #produtos .thumbnail a{
 	text-decoration: none;
+}
+#rodape a{
+	color:#4d4d4d;
+}
+#rodape label{
+	font-weight: 100;
+}
+#rodape label h3{
+	color:#3d3d3d;
+	font-size:15px;
+}
+#rodape ul{
+	list-style: none;
+}
+#rodape ul li{
+	font-size:12px;
+	line-height: 24px;
 }
 /**
 * Classes
